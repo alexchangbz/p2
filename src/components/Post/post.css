@@ -1,0 +1,43 @@
+.card__links {
+    display: flex;
+}
+
+.card__links a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 48px;
+    margin: 0rem 1rem;
+    outline: 3px solid #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.card__links a:hover {
+    background-color: transparent;
+}
+
+.card__links img {
+    width: 30px;
+    margin: 10px;
+}
+
+.stacks__list {
+    margin: 1rem 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.stacks__list span.stack__keyword {
+    padding: 0.2rem 0.8rem 0.4rem;
+    margin: 0.2rem;
+    color: #fff;
+    background-color: #fc4c3f;
+    font-size: 0.7rem;
+    border-radius: 0.3rem;
+}

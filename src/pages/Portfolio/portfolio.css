@@ -1,0 +1,105 @@
+.portfolio__container {
+    background-image: url('../../assets/seamless-bg-1.jpg');
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    min-height: 100vh;
+}
+
+.portfolio__container p {
+    color: #fff;
+}
+
+.portfolio__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.portfolio__list_container {
+    display: inline-block;
+    width: calc(900px + 6rem);
+}
+
+.portfolio__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio__card {
+    width: 300px;
+    height: 360px;
+    background-color: #1a234099;
+    border-radius: 1rem;
+    box-shadow: 10px 3px 20px 3px #0e142490;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.portfolio__card h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 3rem 1rem 3rem;
+}
+
+.portfolio__card img.card__image {
+    width: 80%;
+    height: 150px;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    margin: 1rem 0;
+}
+
+.pagination li input {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    outline: 2px solid #fff;
+    margin: 0 0.5rem;
+}
+
+.pagination li input.active {
+    background-color: #0f3a54;
+    outline: 2px solid #0f3a54;
+}
+
+.pagination input:hover {
+    cursor: pointer;
+    background-color: #0f3a54;
+}
+
+.pagination input {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+.portfolio__filter {
+    display: flex;
+}
+
+.portfolio__filter-item {
+    background-color: #fff;
+    font-weight: 800;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.item-active {
+    background-color: #313bac;
+    color: #fff;
+}

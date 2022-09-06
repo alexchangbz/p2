@@ -1,0 +1,28 @@
+.container__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 5rem;
+    padding: 0 4rem;
+    color: #fff;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar ul li a:hover {
+    color: #ffb0b0;
+}

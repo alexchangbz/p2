@@ -5,6 +5,7 @@ import pBg2 from '../../assets/portfolio-2.jpg'
 import pBg3 from '../../assets/portfolio-3.jpg'
 import pBg4 from '../../assets/portfolio-4.jpg'
 import pBg5 from '../../assets/portfolio-5.jpg'
+import pBg6 from '../../assets/portfolio-6.jpg'
 import './portfolio.css'
 import Pagination from '../../components/Pagination/Pagination'
 import Posts from '../../components/Post/Posts'
@@ -15,6 +16,7 @@ const portfolios_data = [
   { title: "Micael's Portfolio", description: "Front-end", image: pBg3, url: "https://portfolio-project-micael.netlify.app/", github: "https://github.com/alexchangbz/micael_portfolio", stacks: ["react", "sanity"]},
   { title: "Blockchain Transactions", description: "Blockchain", image: pBg4, url: "https://transactions.vercel.app/", stacks: ["react", "hardhat", "solidity", "vite"]},
   { title: "Happy Toro Website", description: "Front-end", image: pBg5, url: "https://happy-toro.com/", stacks: ["react", "typescript"]},
+  { title: "NFT Minter", description: "Blockchain", image: pBg6, url: "https://thentic-api.vercel.app/", github: "https://github.com/alexchangbz/Thentic_API", stacks: ["react", "axios"]},
 ]
 
 const Portfolio = () => {

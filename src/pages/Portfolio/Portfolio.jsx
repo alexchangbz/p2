@@ -10,9 +10,9 @@ import Pagination from '../../components/Pagination/Pagination'
 import Posts from '../../components/Post/Posts'
 
 const portfolios_data = [
-  { title: "Voting System", description: "Blockchain", image: pBg1, url: "https://ballot-project-main.vercel.app/", stacks: ["react", "solidity", "hardhat"]},
-  { title: "Nature Token ERC-20", description: "Blockchain", image: pBg2, url: "https://natureproject-rexjqb39t-alexchangbz.vercel.app/", stacks: ["react", "solidity", "hardhat"]},
-  { title: "Micael's Portfolio", description: "Front-end", image: pBg3, url: "https://portfolio-project-micael.netlify.app/", stacks: ["react", "sanity"]},
+  { title: "Voting System", description: "Blockchain", image: pBg1, url: "https://ballot-project-main.vercel.app/", github: "https://github.com/alexchangbz/ballot_project", stacks: ["react", "solidity", "hardhat"]},
+  { title: "Nature Token ERC-20", description: "Blockchain", image: pBg2, url: "https://natureproject-rexjqb39t-alexchangbz.vercel.app/", github: "https://github.com/alexchangbz/erc20_natureproject", stacks: ["react", "solidity", "hardhat"]},
+  { title: "Micael's Portfolio", description: "Front-end", image: pBg3, url: "https://portfolio-project-micael.netlify.app/", github: "https://github.com/alexchangbz/micael_portfolio", stacks: ["react", "sanity"]},
   { title: "Blockchain Transactions", description: "Blockchain", image: pBg4, url: "https://transactions.vercel.app/", stacks: ["react", "hardhat", "solidity", "vite"]},
   { title: "Happy Toro Website", description: "Front-end", image: pBg5, url: "https://happy-toro.com/", stacks: ["react", "typescript"]},
 ]

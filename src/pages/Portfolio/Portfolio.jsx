@@ -17,6 +17,7 @@ const portfolios_data = [
   { title: "Blockchain Transactions", description: "Blockchain", image: pBg4, url: "https://transactions.vercel.app/", stacks: ["react", "hardhat", "solidity", "vite"]},
   { title: "Happy Toro Website", description: "Front-end", image: pBg5, url: "https://happy-toro.com/", stacks: ["react", "typescript"]},
   { title: "NFT Minter", description: "Blockchain", image: pBg6, url: "https://thentic-api.vercel.app/", github: "https://github.com/alexchangbz/Thentic_API", stacks: ["react", "axios"]},
+  { title: "Simple NestJS CRUD", description: "Back-end", image: pBg6, github: "https://github.com/alexchangbz/CRUD_NestJS", stacks: ["NestJS", "typescript"]},
 ]
 
 const Portfolio = () => {
@@ -38,6 +39,7 @@ const Portfolio = () => {
 
   const handleWorkFilter = (item) => {
     setActiveFilter(item)
+    setCurrentPage(1)
     setAnimateCard({ y: 100, opacity: 0 })
     setTimeout(() => {
       setAnimateCard([{ y: 0, opacity: 1 }])

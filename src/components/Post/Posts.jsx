@@ -22,9 +22,11 @@ const Posts = ({ posts, animateCard }) => {
             </div>
             <div className="card__links">
               <div className="card__link">
-                <a href={post.url} target="_blank" rel="noreferrer">
-                  <img src={viewIcon} alt="view-icon" />
-                </a>
+                {post.url && (
+                  <a href={post.url} target="_blank" rel="noreferrer">
+                    <img src={viewIcon} alt="view-icon" />
+                  </a>
+                )}
               </div>
               <div className="card__link">
                 {post.github && (

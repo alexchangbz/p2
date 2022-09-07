@@ -34,7 +34,11 @@ const Portfolio = () => {
   
   // Change Page
   const paginate = (num) => {
-    setCurrentPage(num)
+    setAnimateCard({ y: 100, opacity: 0 })
+    setTimeout(() => {
+      setAnimateCard([{ y: 0, opacity: 1 }])
+      setCurrentPage(num)
+    }, 500)
   }
 
   const handleWorkFilter = (item) => {

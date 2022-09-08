@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './navbar.css'
 
 const Navbar = ({ bgColor }) => {
@@ -9,8 +10,9 @@ const Navbar = ({ bgColor }) => {
     >
         <div className="navbar">
           <ul>
-            <li><a href="./">Home</a></li>
-            <li><a href="./portfolio">Portfolio</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/portfolio">Portfolio</Link></li>
+            <li><Link to="/work">Work</Link></li>
           </ul>
         </div>
     </div>

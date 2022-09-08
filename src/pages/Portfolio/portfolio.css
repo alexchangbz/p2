@@ -1,6 +1,6 @@
 .portfolio__container {
     background-image: url('../../assets/seamless-bg-1.jpg');
-    background-position: center;
+    background-position: 0 -30rem;
     background-size: 100% auto;
     background-repeat: repeat-y;
     min-height: 100vh;

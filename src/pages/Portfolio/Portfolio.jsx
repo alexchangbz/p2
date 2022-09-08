@@ -11,14 +11,14 @@ import Pagination from '../../components/Pagination/Pagination'
 import Posts from '../../components/Post/Posts'
 
 const portfolios_data = [
+  { title: "Happy Toro Website", description: "Front-end", image: pBg5, url: "https://happy-toro.com/", stacks: ["react", "typescript"]},
   { title: "Voting System", description: "Blockchain", image: pBg1, url: "https://ballot-project-main.vercel.app/", github: "https://github.com/alexchangbz/ballot_project", stacks: ["react", "solidity", "hardhat"]},
   { title: "Nature Token ERC-20", description: "Blockchain", image: pBg2, url: "https://natureproject-rexjqb39t-alexchangbz.vercel.app/", github: "https://github.com/alexchangbz/erc20_natureproject", stacks: ["react", "solidity", "hardhat"]},
+  { title: "Simple NestJS CRUD", description: "Back-end", image: pBg6, github: "https://github.com/alexchangbz/CRUD_NestJS", stacks: ["NestJS", "typescript"]},
   { title: "Micael's Portfolio", description: "Front-end", image: pBg3, url: "https://portfolio-project-micael.netlify.app/", github: "https://github.com/alexchangbz/micael_portfolio", stacks: ["react", "sanity"]},
   { title: "Blockchain Transactions", description: "Blockchain", image: pBg4, url: "https://transactions.vercel.app/", stacks: ["react", "hardhat", "solidity", "vite"]},
-  { title: "Happy Toro Website", description: "Front-end", image: pBg5, url: "https://happy-toro.com/", stacks: ["react", "typescript"]},
   { title: "NFT Minter", description: "Blockchain", image: pBg6, url: "https://thentic-api.vercel.app/", github: "https://github.com/alexchangbz/Thentic_API", stacks: ["react", "axios"]},
-  { title: "Simple NestJS CRUD", description: "Back-end", image: pBg6, github: "https://github.com/alexchangbz/CRUD_NestJS", stacks: ["NestJS", "typescript"]},
-]
+].reverse()
 
 const Portfolio = () => {
   const [currentPage, setCurrentPage] = useState(1)

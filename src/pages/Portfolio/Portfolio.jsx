@@ -18,7 +18,7 @@ const portfolios_data = [
   { title: "Micael's Portfolio", description: "Front-end", image: pBg3, url: "https://portfolio-project-micael.netlify.app/", github: "https://github.com/alexchangbz/micael_portfolio", stacks: ["react", "sanity"]},
   { title: "Blockchain Transactions", description: "Blockchain", image: pBg4, url: "https://transactions.vercel.app/", stacks: ["react", "hardhat", "solidity", "vite"]},
   { title: "NFT Minter", description: "Blockchain", image: pBg6, url: "https://thentic-api.vercel.app/", github: "https://github.com/alexchangbz/Thentic_API", stacks: ["react", "axios"]},
-  { title: "Transparent Proxy w/ Testing", description: "Smart Contract", image: pBg3, github: "https://github.com/alexchangbz/transparent_proxy_prelim", stacks: ["solidity", "openzeppelin", "hardhat"]},
+  { title: "Transparent Proxy w/ Testing", description: "Smart Contract", image: pBg2, github: "https://github.com/alexchangbz/transparent_proxy_prelim", stacks: ["solidity", "openzeppelin", "hardhat"]},
 ].reverse()
 
 const Portfolio = () => {

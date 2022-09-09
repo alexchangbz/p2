@@ -46,3 +46,12 @@
     border-radius: 50%;
     margin-bottom: 1rem;
 }
+
+.social__contact {
+    opacity: 0;
+}
+
+.social__contact img {
+    width: 30px;
+    margin: 0 1rem;
+}

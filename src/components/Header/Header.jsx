@@ -45,6 +45,16 @@ const Header = () => {
                     >
                         I'm a Full Stack Blockchain Developer
                     </motion.h2>
+                    <motion.div 
+                        animate={{ opacity: 1 }}
+                        transition={{ duration: 0.5, delay: 1.5 }}
+                        className="social__contact"
+                    >
+                        <span><a href="http://https://www.linkedin.com/in/alex-chang-73197b14b/" target="_blank" rel="noopener noreferrer"><img src={require("../../assets/linkedin.png")} alt="linkedin" /></a></span>
+                        <span><a href="mailto:alexchangbz@gmail.com"><img src={require("../../assets/email.png")} alt="email" /></a></span>
+                        <span><a href="https://t.me/alexchangbz" target="_blank" rel="noopener noreferrer"><img src={require("../../assets/telegram.png")} alt="telegram" /></a></span>
+                        <span><a href="https://github.com/alexchangbz" target="_blank" rel="noopener noreferrer"><img src={require("../../assets/github-2.png")} alt="github" /></a></span>
+                    </motion.div>
                 </div>
             </div>
         </div>

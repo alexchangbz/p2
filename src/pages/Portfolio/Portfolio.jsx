@@ -12,12 +12,12 @@ import Posts from '../../components/Post/Posts'
 
 const portfolios_data = [
   { title: "Happy Toro Website", description: "Front-end", image: pBg5, url: "https://happy-toro.com/", stacks: ["react", "typescript"]},
-  { title: "Voting System", description: "Blockchain", image: pBg1, url: "https://ballot-project-main.vercel.app/", github: "https://github.com/alexchangbz/ballot_project", stacks: ["react", "solidity", "hardhat"]},
-  { title: "Nature Token ERC-20", description: "Blockchain", image: pBg2, url: "https://natureproject-rexjqb39t-alexchangbz.vercel.app/", github: "https://github.com/alexchangbz/erc20_natureproject", stacks: ["react", "solidity", "hardhat"]},
+  { title: "Voting System", description: "Dapp", image: pBg1, url: "https://ballot-project-main.vercel.app/", github: "https://github.com/alexchangbz/ballot_project", stacks: ["react", "solidity", "hardhat"]},
+  { title: "Nature Token ERC-20", description: "Dapp", image: pBg2, url: "https://natureproject-rexjqb39t-alexchangbz.vercel.app/", github: "https://github.com/alexchangbz/erc20_natureproject", stacks: ["react", "solidity", "hardhat"]},
   { title: "Simple NestJS CRUD", description: "Back-end", image: pBg6, github: "https://github.com/alexchangbz/CRUD_NestJS", stacks: ["NestJS", "typescript"]},
   { title: "Micael's Portfolio", description: "Front-end", image: pBg3, url: "https://portfolio-project-micael.netlify.app/", github: "https://github.com/alexchangbz/micael_portfolio", stacks: ["react", "sanity"]},
-  { title: "Blockchain Transactions", description: "Blockchain", image: pBg4, url: "https://transactions.vercel.app/", stacks: ["react", "hardhat", "solidity", "vite"]},
-  { title: "NFT Minter", description: "Blockchain", image: pBg6, url: "https://thentic-api.vercel.app/", github: "https://github.com/alexchangbz/Thentic_API", stacks: ["react", "axios"]},
+  { title: "Blockchain Transactions", description: "Dapp", image: pBg4, url: "https://transactions.vercel.app/", stacks: ["react", "hardhat", "solidity", "vite"]},
+  { title: "NFT Minter", description: "Dapp", image: pBg6, url: "https://thentic-api.vercel.app/", github: "https://github.com/alexchangbz/Thentic_API", stacks: ["react", "axios"]},
   { title: "Transparent Proxy w/ Testing", description: "Smart Contract", image: pBg2, github: "https://github.com/alexchangbz/transparent_proxy_prelim", stacks: ["solidity", "openzeppelin", "hardhat"]},
 ].reverse()
 
@@ -63,7 +63,7 @@ const Portfolio = () => {
         <Navbar />
         <div className="portfolio__section">
           <div className="portfolio__filter">
-              {['Front-end', 'Blockchain', 'Back-end', 'Smart Contract', 'All'].map((item, index) => (
+              {['Front-end', 'Back-end', 'Dapp', 'Smart Contract', 'All'].map((item, index) => (
                   <div key={index} 
                       onClick={() => handleWorkFilter(item)} 
                       className={`portfolio__filter-item ${activeFilter === item ? 'item-active' : ''}`}

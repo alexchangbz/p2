@@ -19,6 +19,7 @@ const portfolios_data = [
   { title: "Blockchain Transactions", description: "Dapp", image: pBg4, url: "https://transactions.vercel.app/", stacks: ["react", "hardhat", "solidity", "vite"]},
   { title: "NFT Minter", description: "Dapp", image: pBg6, url: "https://thentic-api.vercel.app/", github: "https://github.com/alexchangbz/Thentic_API", stacks: ["react", "axios"]},
   { title: "Transparent Proxy w/ Testing", description: "Smart Contract", image: pBg2, github: "https://github.com/alexchangbz/transparent_proxy_prelim", stacks: ["solidity", "openzeppelin", "hardhat"]},
+  { title: "Reminder Applications", description: "Full Stack", image: pBg3, url: "https://mern-alec.herokuapp.com", stacks: ["react", "axios", "mongodb"]},
 ].reverse()
 
 const Portfolio = () => {
@@ -63,7 +64,7 @@ const Portfolio = () => {
         <Navbar />
         <div className="portfolio__section">
           <div className="portfolio__filter">
-              {['Front-end', 'Back-end', 'Dapp', 'Smart Contract', 'All'].map((item, index) => (
+              {['Front-end', 'Back-end', 'Dapp', 'Smart Contract', 'Full Stack', 'All'].map((item, index) => (
                   <div key={index} 
                       onClick={() => handleWorkFilter(item)} 
                       className={`portfolio__filter-item ${activeFilter === item ? 'item-active' : ''}`}

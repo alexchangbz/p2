@@ -20,6 +20,7 @@ const portfolios_data = [
   { title: "NFT Minter", description: "Dapp", image: pBg6, url: "https://thentic-api.vercel.app/", github: "https://github.com/alexchangbz/Thentic_API", stacks: ["react", "axios"]},
   { title: "Transparent Proxy w/ Testing", description: "Smart Contract", image: pBg2, github: "https://github.com/alexchangbz/transparent_proxy_prelim", stacks: ["solidity", "openzeppelin", "hardhat"]},
   { title: "Reminder Applications", description: "Full Stack", image: pBg3, url: "https://mern-alec.herokuapp.com", stacks: ["react", "axios", "mongodb"]},
+  { title: "Project Management Applications", description: "Full Stack", image: pBg6, url: "https://streamframe-app.herokuapp.com/", stacks: ["react", "redux", "mongodb"]},
 ].reverse()
 
 const Portfolio = () => {

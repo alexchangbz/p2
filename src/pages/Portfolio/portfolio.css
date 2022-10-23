@@ -103,3 +103,22 @@
     background-color: #313bac;
     color: #fff;
 }
+
+@media screen and (max-width: 580px) {
+    .portfolio__list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .portfolio__card {
+        width: 350px;
+        height: 360px;
+    }
+
+    .portfolio__filter {
+        display: flex;
+        flex: wrap;
+    }
+}

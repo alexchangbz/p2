@@ -6,6 +6,7 @@ import pBg3 from '../../assets/portfolio-3.jpg'
 import pBg4 from '../../assets/portfolio-4.jpg'
 import pBg5 from '../../assets/portfolio-5.jpg'
 import pBg6 from '../../assets/portfolio-6.jpg'
+import pBg7 from '../../assets/portfolio-7.jpg'
 import './portfolio.css'
 import Pagination from '../../components/Pagination/Pagination'
 import Posts from '../../components/Post/Posts'
@@ -20,7 +21,7 @@ const portfolios_data = [
   { title: "NFT Minter", description: "Dapp", image: pBg6, url: "https://thentic-api.vercel.app/", github: "https://github.com/alexchangbz/Thentic_API", stacks: ["react", "axios"]},
   { title: "Transparent Proxy w/ Testing", description: "Smart Contract", image: pBg2, github: "https://github.com/alexchangbz/transparent_proxy_prelim", stacks: ["solidity", "openzeppelin", "hardhat"]},
   { title: "Reminder Applications", description: "Full Stack", image: pBg3, url: "https://mern-alec.herokuapp.com", stacks: ["react", "axios", "mongodb"]},
-  { title: "Project Management Applications", description: "Full Stack", image: pBg6, url: "https://streamframe-app.herokuapp.com/", stacks: ["react", "redux", "mongodb"]},
+  { title: "Project Management Applications", description: "Full Stack", image: pBg7, github: "https://github.com/alexchangbz/streamframe-typescript", url: "https://streamframe-app.herokuapp.com/", stacks: ["react", "redux", "mongodb"]},
 ].reverse()
 
 const Portfolio = () => {
